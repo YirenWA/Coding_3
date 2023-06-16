@@ -1,5 +1,7 @@
 # Coding_3
 ## Project Content 
+_Video Link_:   
+
 I aim to train a neural network model to depict the impact of plastic on the natural environment through image representation, creating a futuristic post-apocalyptic scene. This scene envisions a coexistence between plastic and organisms, all imagined by the machine.  
 For this theme, I would like to collect the dataset myself. _CycleGAN_ is an unsupervised learning approach that can be trained on relatively small datasets and yield satisfactory results. Its adversarial learning mechanism enables image translation between two different domains while preserving the content and structure of the images.  
 Therefore, I have chosen the domain transformation between artificial flowers (representing plastic) and real flowers. The adversarial training between the generator and discriminator can help the model capture the mapping relationship between these two domains.  
@@ -37,4 +39,6 @@ The images have a contaminated light sensation.
 
 ## Other
 Initially I also tried this model many times with different datasets.  
+
+![other-01](https://github.com/YirenWA/Coding_3/assets/119879041/83455c3d-9b31-417c-9559-626b6a617c84)
 
