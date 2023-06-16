@@ -4,6 +4,8 @@ I aim to train a neural network model to depict the impact of plastic on the nat
 For this theme, I would like to collect the dataset myself. _CycleGAN_ is an unsupervised learning approach that can be trained on relatively small datasets and yield satisfactory results. Its adversarial learning mechanism enables image translation between two different domains while preserving the content and structure of the images.  
 Therefore, I have chosen the domain transformation between artificial flowers (representing plastic) and real flowers. The adversarial training between the generator and discriminator can help the model capture the mapping relationship between these two domains.  
 
+![封面-01](https://github.com/YirenWA/Coding_3/assets/119879041/e37bcbe0-23de-48e2-9d43-241c36f96fed)
+
 ## Define the model  
 ### First Model: Discriminator  
 I defined the discriminator. During the experimentation, I tried various loss functions such as Mean Squared Error, mean_absolute_error, and Binary Cross Entropy. Among them, I found that _"mean_absolute_error"_ yielded better results.
