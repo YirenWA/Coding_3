@@ -14,6 +14,21 @@ I utilized the _Adam_ optimizer and fine-tuned the parameters with a smaller lea
 ### Second Model: Generator  
 I defined the generator, which is a composite model, that serves the purpose of training both the generator and discriminator.  
 
-![Generator](https://github.com/YirenWA/Coding_3/assets/119879041/f14dae33-7290-4984-9cd6-520f8d1b59b8)
+![Generator](https://github.com/YirenWA/Coding_3/assets/119879041/f14dae33-7290-4984-9cd6-520f8d1b59b8)  
 
-Finally, I proceeded with the training of the CycleGAN model.
+Finally, I proceeded with the training of the CycleGAN model.  
+
+## Training dataset
+In the data training phase, I collected two datasets, one with 400 images and the other with 410 images. When loading the image dataset, I resized the images to (256, 256) to ensure a consistent size.  
+After several tests, adjustments were made to the image dataset. The images in the dataset needed to have flowers positioned in reasonable locations, while the plastic flower images needed to avoid an excessive proportion of pure black areas in the frame.  
+
+![process-01](https://github.com/YirenWA/Coding_3/assets/119879041/01dbcd1b-ddbc-4125-8241-c49d99797226)  
+
+Finally, I selected _50 samples_ for training.  
+During the training process, I discovered that the generated images better expressed my theme. Therefore, I also added storage for the generated images in the model. The key idea of CycleGAN is to introduce cycle consistency loss, which involves converting the transformed images back to the original domain.  
+
+![Generated output folder](https://github.com/YirenWA/Coding_3/assets/119879041/3a650888-7f45-4aa6-9dc3-2d3247b75601)
+
+## Presentation of results
+![results-01](https://github.com/YirenWA/Coding_3/assets/119879041/31f68695-ab1e-43de-a873-0f1962dccdab)
+
