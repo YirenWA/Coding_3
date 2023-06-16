@@ -24,11 +24,15 @@ After several tests, adjustments were made to the image dataset. The images in t
 
 ![process-01](https://github.com/YirenWA/Coding_3/assets/119879041/01dbcd1b-ddbc-4125-8241-c49d99797226)  
 
-Finally, I selected _50 samples_ for training.  
+Finally, I selected _50 samples_ for training. One epoch consists of 500 iterations, and after multiple tests, the training was conducted with epoch=90.   
 During the training process, I discovered that the generated images better expressed my theme. Therefore, I also added storage for the generated images in the model. The key idea of CycleGAN is to introduce cycle consistency loss, which involves converting the transformed images back to the original domain.  
 
 ![Generated output folder](https://github.com/YirenWA/Coding_3/assets/119879041/3a650888-7f45-4aa6-9dc3-2d3247b75601)
 
 ## Presentation of results
-![results-01](https://github.com/YirenWA/Coding_3/assets/119879041/31f68695-ab1e-43de-a873-0f1962dccdab)
+The images have a contaminated light sensation.  
+![results-01](https://github.com/YirenWA/Coding_3/assets/119879041/31f68695-ab1e-43de-a873-0f1962dccdab)  
+
+## Other
+Initially I also tried this model many times with different datasets.  
 
